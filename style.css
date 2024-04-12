@@ -1,0 +1,96 @@
+body {
+    font-family: Century Gothic;
+    line-height: 1.6;
+    color: #333;
+    background-color: ##DDC3D0;
+    background-image: url("images/house pic.jpg"); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #DBDAEA;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 760px) {
+.container { width: 600px; } }
+
+@media (max-width: 500px) {
+.container { width: 400px; } }
+
+
+
+
+h1 {
+    text-align: center;
+    color: #0A100D;
+    margin-bottom: 20px;
+}
+
+#tejasphoto {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #;
+    margin-bottom: 20px;
+}
+
+#cat {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0A100D;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #DDC3D0;
+    background-color: #0A100D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #D90368;
+    color: #0A100D;
+}
+
+
+
+
+.
